@@ -7,8 +7,6 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-#include "mqtt.h"
-
 #define TOUCHTASTER   16 // define pin 16 (D0) as pin for the first touchpad
 #define TOUCHTASTER2  14 // define pin 14 (D5) as pin for the second touchpad
 #define TOUCHTASTER3  12 // define pin 12 (D6) as pin for the third touchpad
